@@ -11,6 +11,6 @@ angular.module('myApp', [
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/transactions', {templateUrl: 'partials/transactions/index.html', controller: 'transactions.index'});
-  $routeProvider.when('/view2', {templateUrl: 'partials/partial2.html', controller: 'MyCtrl2'});
+  $routeProvider.when('/graphs', {templateUrl: 'partials/graphs.html', controller: 'graphs'});
   $routeProvider.otherwise({redirectTo: '/transactions'});
 }]);
