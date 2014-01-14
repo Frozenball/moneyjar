@@ -1,6 +1,6 @@
-logs/*
-!.gitkeep
-node_modules/
-tmp
-.DS_Store
-bower_components/
+/bower_components
+/build
+/node_modules
+/npm-debug.log
+.DS_STORE
+server/config.yaml

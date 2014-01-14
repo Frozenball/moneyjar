@@ -1,21 +1,13 @@
 {
-  "name": "moneyjar",
-  "version": "1.0.0",
-  "homepage": "https://github.com/Frozenball/moneyjar",
-  "authors": [
-    "teemu.on.ihminen@gmail.com"
-  ], 
-  "description": "MoneyJar",
-  "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
+  "name": "genesis-skeleton",
+  "version": "0.0.1",
   "dependencies": {
-    "angular": "~1.2.6",
-    "angular-route": "~1.2.6"
+    "angular": "~1.0.7",
+    "angular-mocks": "~1.0.7",
+    "angular-scenario": "~1.0.7",
+    "angular-strap": "~0.7.4",
+    "bootstrap": "~2.3.2",
+    "html5shiv-dist": "~3.6.2",
+    "modernizr": "~2.6.2"
   }
 }

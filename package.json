@@ -1,12 +1,47 @@
 {
-  "name": "angularjs-seed",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
-  "devDependencies": {
-    "phantomjs" : "~1.9",
-    "karma" : "~0.10",
-    "karma-junit-reporter" : "~0.1",
-    "karma-jasmine" : "~0.1",
-    "karma-ng-scenario" : "~0.1"
-  }
+  "name": "MoneyJar",
+  "version": "1.0.0",
+  "description": "A personal finance application",
+  "main": "index.js",
+  "dependencies": {
+    "generator-genesis": "~0.3.0",
+    "bower": "~0.10.0",
+    "express": "~3.3.1",
+    "grunt-angular-templates": "~0.3.9",
+    "grunt-cli": "~0.1.9",
+    "grunt-coffeelint": "0.0.6",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-concat": "~0.1.3",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-less": "~0.5.2",
+    "grunt-contrib-mincss": "~0.4.0rc7",
+    "grunt-contrib-uglify": "~0.1.2",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-express-server": "~0.3.1",
+    "grunt-usemin": "~0.1.12",
+    "mysql": "~2.0.0",
+    "sequelize": "~2.0.0-dev1",
+    "lodash": "~2.4.1",
+    "everyauth": "~0.4.5",
+    "yaml-config": "~0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/.bin/grunt test",
+    "prestart": "./node_modules/.bin/grunt build optimize",
+    "start": "node server/server.js",
+    "postinstall": "./node_modules/.bin/bower --quiet install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Frozenball/moneyjar.git"
+  },
+  "author": "",
+  "license": "N",
+  "bugs": {
+    "url": "https://github.com/Frozenball/moneyjar/issues"
+  },
+  "peerDependencies": {}
 }
