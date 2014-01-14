@@ -16,6 +16,7 @@ console.log(settings);
 everyauth.google
   .appId(settings.google.appId)
   .appSecret(settings.google.appSecret)
+  .scope('https://www.google.com/m8/feeds')
   .handleAuthCallbackError( function (req, res) {
     // If a user denies your app, Google will redirect the user to
     // /auth/facebook/callback?error=access_denied
